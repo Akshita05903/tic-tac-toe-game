@@ -8,6 +8,12 @@ body{
     text-align: center;
 }
 
+h1{
+    color: white;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
 .container{
     height: 70vh;
     display: flex;
@@ -23,7 +29,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1.5vmin
+    gap: 1.5vmin;
 }
 
 .box{
@@ -55,9 +61,11 @@ body{
     border: none;
 }
 
-#msg{
-    color: #ffffc7;
-    font-size: 8vmin;
+.box:hover,
+#reset-btn:hover,
+.new-btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
 }
 
 #msg{
@@ -66,7 +74,7 @@ body{
 }
 
 .msg-container{
-    height: 30vmin;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,3 +85,4 @@ body{
 .hide{
     display: none;
 }
+
